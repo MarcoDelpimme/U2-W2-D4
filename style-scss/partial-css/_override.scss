@@ -6,6 +6,11 @@
 
 // 2. Include any default variable overrides here
 
+$margin-top-value: 5rem;
+.mymargintop {
+  margin-top: $margin-top-value;
+}
+
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
@@ -16,7 +21,8 @@ $my-color: (
   "hero": #7550fe,
   "btn-green": #1acb98,
   "icon-bg": #ffeeda,
-  "marginGrey": rgb(201, 201, 201),
+  "marginGrey": rgb(143, 143, 143),
+  "herotest": #ac97f8,
 );
 $theme-colors: map-merge($theme-colors, $my-color);
 
