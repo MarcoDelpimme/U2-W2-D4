@@ -11,6 +11,14 @@
 @import "../../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
+$my-color: (
+  "white": #fff,
+  "hero": #7550fe,
+  "btn-green": #1acb98,
+  "icon-bg": #ffeeda,
+  "marginGrey": rgb(201, 201, 201),
+);
+$theme-colors: map-merge($theme-colors, $my-color);
 
 // 5. Include remainder of required parts
 @import "../../node_modules/bootstrap/scss/maps";
