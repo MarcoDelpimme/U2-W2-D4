@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "name": "u2-w2-d4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass style-scss/style.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
